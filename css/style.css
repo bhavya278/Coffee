@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  #navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    background: repeating-radial-gradient(rgb(110, 43, 43), rgb(28, 20, 32));
+    opacity: 0.8;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: 40px;
+    margin: 20px;
+  }
+  
+  #navbar ul {
+    display: flex;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  #navbar ul li {
+    list-style: none;
+    padding: 40px;
+  }
+  
+  #navbar ul li a {
+    color: red;
+    display: block;
+    padding: 3px 22px;
+    text-decoration: none;
+  }
+  
+  #navbar ul li a:focus {
+    color: rgb(217, 231, 14);
+  }
+
+  #form{
+    display:grid;
+    place-items: center;
+  }
+
+#table{
+  margin-top: 10px;
+  border: 2px solid black; border-spacing: 25px;
+  display:grid;
+  place-items: center;
+  margin-left: 30%;
+  margin-right: 30%;
+}
